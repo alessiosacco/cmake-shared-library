@@ -4,5 +4,5 @@
 
 TEST(SharedLibrary, HelloWorldStr)
 {
-	ASSERT_EQ("Hello world!", SharedLibrary::hello_world_str());
+    ASSERT_EQ("Hello world!", SharedLibrary::hello_world_str());
 }
